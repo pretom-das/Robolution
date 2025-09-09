@@ -1889,7 +1889,7 @@
             }
         }
 
-  .event-link {
+     .event-link {
     display: inline-block;   /* makes it behave like a button */
     padding: 10px 20px;      /* space inside the box */
     border: 2px solid #007bff; /* border color */
