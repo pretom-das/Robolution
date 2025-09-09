@@ -1888,3 +1888,19 @@
                 font-size: 0.9rem;
             }
         }
+
+  .event-link {
+    display: inline-block;   /* makes it behave like a button */
+    padding: 10px 20px;      /* space inside the box */
+    border: 2px solid #007bff; /* border color */
+    border-radius: 8px;      /* rounded corners */
+    text-decoration: none;   /* remove underline */
+    color: #007bff;          /* text color */
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  .event-link:hover {
+    background-color: #007bff; 
+    color: white;
+  }
